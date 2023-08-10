@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="gallery">
+        <div class="thumbnail">
+            <img src="https://images.pexels.com/photos/7311921/pexels-photo-7311921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 1">
+        </div>
+        <div class="thumbnail">
+            <img src="https://images.pexels.com/photos/7169853/pexels-photo-7169853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2">
+        </div>
+        <div class="thumbnail">
+            <img src="https://images.pexels.com/photos/7170768/pexels-photo-7170768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3">
+        </div>
+        <div class="thumbnail">
+            <img src="https://images.pexels.com/photos/586043/pexels-photo-586043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 4">
+        </div>
+    </div>
+    
+    <div class="lightbox" id="lightbox">
+        <span class="close-button" id="close-button">&times;</span>
+        <img src="" alt="Full-Sized Image" id="lightbox-image">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
